@@ -1,0 +1,42 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+@import "dashboard";
+@import "sidebar";
+@import "mousepointer";
+@import "roles";
+@import "home";
+@import "customs";
+@import "custom-image-hover";
+
+// Dependencies
+@import '~bootstrap/scss/bootstrap';
+@import "~font-awesome/scss/font-awesome.scss";
+@import "~bootstrap-select/sass/bootstrap-select";
+@import "~toastr/toastr.scss";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.logo-full {
+  height: auto;
+  width: 132px;
+}
+.app-logo-full{
+  height: auto;
+  width: 120px;
+}
+.logo {
+  height: auto;
+  width: 42px;
+}
+.dropdown {
+  position: unset;
+}
+.width-100{
+  width: 100%;
+}
